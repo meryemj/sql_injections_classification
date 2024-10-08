@@ -34,7 +34,7 @@ def predict_sql_injection(query, threshold=0.5):
 
 @app.route('/')
 def home():
-    return "Hello, World!"
+    return "Hello, Welcome to SQL Injections Classification Page"
 
 
 # Route pour prédire une requête SQL
